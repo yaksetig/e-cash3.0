@@ -19,8 +19,8 @@ flowchart TD
 
     
     user -->  commercial_bank
-    commercial_bank --"(blinded)<br>**coin(s)**"-->  mix_network
-    mix_network     --"(unblinded)<br>**coin(s)**"-->  board
+    commercial_bank --"(blinded)<br>coin(s)"-->  mix_network
+    mix_network     --"(unblinded)<br>coin(s)"-->  board
     board           <--> central_bank
 
 ```
